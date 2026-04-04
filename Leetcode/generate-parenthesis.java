@@ -1,6 +1,7 @@
 //22 -> Generate Parentheses
 // https://leetcode.com/problems/generate-parentheses/
-
+import java.util.ArrayList;
+import java.util.List;
 class Solution {
     public List<String> generateParenthesis(int n) {
         ArrayList<String> res= new ArrayList<>();
